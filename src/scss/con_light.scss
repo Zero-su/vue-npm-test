@@ -1,0 +1,202 @@
+@mixin background0{
+	background :linear-gradient(#f6f4f3,#cdc7c5) ;
+	box-shadow : 0 -1px 2px #7c6c66 inset,0 3px 5px rgba(64,55,37,0.4);
+}
+@mixin background1{
+	background :linear-gradient(#edeae9,#d5cfcd) ;
+	box-shadow : 0px 1px 1px  #f6f5f5 inset,0px -1px 1px  #6b5751 inset;
+}
+@mixin background2{
+	background : linear-gradient(#edeae9,#d5cfcd) ;
+	box-shadow : 0px 1px 1px  rgba(0,0,0,0.5),0px 1px 1px  #f6f5f5 inset,0px -1px 1px  #6b5751 inset;
+}
+@mixin background3{
+	background :linear-gradient(#f3f1f0,#cecac9) ;
+	box-shadow : 0px 1px 1px  #f9f8f8 inset,0px -1px 1px  #ada6a4 inset;
+}
+@mixin background4{
+	background : #cecbc9;
+	box-shadow : 0 1px 0 #fff, 0 1px 1px #918a84 inset;
+}
+@mixin background5{
+	background:#cfccca;
+	border:1px solid #b5b2ae;
+	box-shadow:0 2px 0 #f3f2f2,0 1px 0 #9e9b9a;
+}
+@mixin background6{
+	background :linear-gradient(#f3f1f0,#cecac9) ;
+	box-shadow :0px 2px 6px  rgba(0,0,0,0.15),0px 1px 1px  #f9f8f8 inset,0px -1px 1px  #ada6a4 inset;	
+}
+@mixin background7{
+	background:linear-gradient(#f6f4f3,#c4bfbe);
+ 	box-shadow:0 1px 0 #fdfcfc inset,0 1px 0 #483a35;	
+}
+@mixin background8{
+	background:linear-gradient(#6ac2ca,#4198a0);
+	box-shadow:0 1px 0 #b9e2e6 inset,0 -1px 0 #004857 inset;
+
+}
+@mixin background9{
+	background:linear-gradient(#f18080,#c05959);
+  	 box-shadow:0 1px 0 #f8c3c3 inset,0 -1px 0 #a71616 inset;	
+
+}
+@mixin background10{
+	background:linear-gradient(#e6975e,#c1823e);
+   	box-shadow:0 1px 0 #f5ccac inset,0 -1px 0 #b05300 inset;
+
+}
+@mixin background11{
+	background : linear-gradient(#e9934f,#c26d2a) ;
+	box-shadow : 0px 1px 1px  #f5ccac inset,0px -1px 1px  #930000 inset;	
+
+}
+@mixin background12{
+	background :linear-gradient(#e2c13b,#bc9c1b) ;
+	box-shadow :0px 1px 1px  #f1e1a2 inset,0px -1px 1px  #895000 inset;
+
+}
+
+@mixin background13{
+	background : #5f5655;
+	box-shadow : 0 1px 0 #fff, 0 1px 1px #0f0f0f inset;
+}
+@mixin background14{
+	background : #5ba3aa;
+	box-shadow : 0 1px 0 #fff, 0 1px 1px #003c42 inset;
+}
+@mixin background15{
+	background : #c95656;
+	box-shadow : 0 1px 0 #fff, 0 1px 1px #841111 inset;
+}
+@mixin background16{
+	background : #933e34;
+	box-shadow : 0 1px 0 #fff, 0 1px 1px #4e0000 inset;
+}
+@mixin background17{
+	background : #aed5d9;
+	box-shadow : 0 1px 0 #fff, 0 1px 1px #699094 inset;
+}
+@mixin background18{
+	background : #d8afaf;
+	box-shadow : 0 1px 0 #fff, 0 1px 1px #936a6a inset;
+}
+@mixin background19{
+	background : #d4a7c3;
+	box-shadow : 0 1px 0 #fff, 0 1px 1px #8f627e inset;
+}
+@mixin background20{
+	background : #d9bda8;
+	box-shadow : 0 1px 0 #fff, 0 1px 1px #947863 inset;
+}
+@mixin background21{
+	background : linear-gradient(#6ac2ca,#4198a0) ;
+	box-shadow :0px 1px 1px  rgba(0,0,0,0.5),0px 1px 1px #b9e2e6 inset,0px -1px 1px #004857 inset;
+}
+@mixin background22{
+	background : linear-gradient(#f18080,#c05959);
+	box-shadow : 0px 1px 1px  rgba(0,0,0,0.5),0px 1px 1px  #f8c3c3 inset,0px -1px 1px  #a71616 inset;
+}
+
+@mixin background23{
+	background : linear-gradient(#df7cb9,#b44f8d) ;
+	box-shadow : 0px 1px 1px  rgba(0,0,0,0.5),0px 1px 1px  #f0c1de inset,0px -1px 1px  #7b0035 inset;
+}
+@mixin background24{
+	background : linear-gradient(#e9934f,#c26d2a) ;
+	box-shadow : 0px 1px 1px  rgba(0,0,0,0.5),0px 1px 1px  #f5ccac inset,0px -1px 1px  #930000 inset;
+}
+@mixin background25{
+	background :linear-gradient(#e2c13b,#bc9c1b) ;
+	box-shadow :0px 1px 1px  rgba(0,0,0,0.5),0px 1px 1px  #f1e1a2 inset,0px -1px 1px  #895000 inset;
+}
+@mixin background26{
+	background :#5f5655;
+	border : 1px solid #0e0c0b;
+}
+@mixin background27{
+	background :linear-gradient(#6ac2ca,#4198a0);
+	box-shadow :0 1px 0 #223638;
+}
+@mixin background28{
+	background : linear-gradient(#a79896,#716665);
+	box-shadow : 0 1px 1px #d5cecd inset,0 -1px 2px #040000 inset, 0 1px 2px rgba(0,0,0,0.5);
+	
+}
+@mixin background29{
+	background :linear-gradient(#edeae9,#d5cfcd);
+	border : 1px solid #c1bab9;
+	box-shadow : 0px 1px 2px  #f8f7f7 inset,0px -1px 2px #8e7f7a inset,0px 2px 6px rgba(0,0,0,0.25);
+}
+@mixin background30{
+	background :linear-gradient(#86d3db,#298a93);
+	box-shadow :0px 1px 2px  #9fdce2 inset,0px -1px 2px #005967 inset,0px 2px 6px rgba(0,0,0,0.25);
+}
+@mixin background31{
+	background :linear-gradient(#f6f4f3,#c4bfbe);
+	box-shadow : 0 1px 0 #60605f;
+}
+@mixin background32{
+	background :#dcd9d8;
+	border : 1px solid #484343;
+}
+@mixin background33{
+	background : #e3dfde;
+	box-shadow :0px 2px 6px  rgba(0,0,0,0.25),0px 1px 1px  #f2f0ef inset,0px -1px 1px  #9c8d89 inset;
+}
+@mixin text1{
+	color : #4b4140;
+	text-shadow : 0 1px 0 rgba(255,255,255,0.7);
+}
+@mixin text2{
+	color : #fafafa;
+	text-shadow : 0 1px 0 rgba(0,0,0,0.3);
+}
+@mixin text3{
+	color : #fafafa;
+	text-shadow : 0 -1px 0 rgba(0,0,0,0.3);
+}
+@mixin text4{
+	color : #7cf3ff;
+	text-shadow : 0 1px 0 rgba(0,0,0,0.3);
+}
+@mixin text5{
+	color :#036872 ;
+	text-shadow : 0 -1px 0 rgba(255,255,255,0.7);
+}
+@mixin text6{
+	color : #4b4140;
+	text-shadow : 0 1px 0 rgba(255,255,255,0.7);
+}
+@mixin text7{
+	color : #9e4242;
+	text-shadow : 0 1px 0 rgba(255,255,255,0.7);
+}
+@mixin text8{
+	color : #a76014;
+	text-shadow : 0 1px 0 rgba(255,255,255,0.7);
+}
+@mixin text9{
+	color : #8a1c4b;
+	text-shadow : 0 1px 0 rgba(255,255,255,0.7);
+}
+@mixin text10{
+	color : #0d7287;
+	text-shadow : 0 1px 0 rgba(255,255,255,0.7);
+}
+@mixin text11{
+	color : #c2faff;
+	text-shadow : 0 1px 0 rgba(0,0,0,0.3);
+}
+@mixin text12{
+	color : #a20f0f;
+	text-shadow : 0 1px 0 rgba(255,255,255,0.7);
+}
+@mixin text13{
+	color : #128b97;
+	text-shadow : 0 1px 0 rgba(255,255,255,0.7);
+}
+@mixin text14{
+	color : #fafafa;
+	text-shadow : 0 1px 2px rgba(0,0,0,0.5);
+}

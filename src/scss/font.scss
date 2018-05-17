@@ -1,0 +1,96 @@
+/*
+  time : 2017-3-7
+  author : zhengidfei
+  desc : 加载字体文件样式
+*/
+
+//字体类，定义名称icon
+@font-face {
+  font-family: 'icon';
+  font-style: normal;
+  font-weight: normal;
+  src: url(scss/fonts/icon.eot);
+  src: url(scss/fonts/icon.eot?#iefix) format('eot'),
+  url(scss/fonts/icon.woff) format('woff'),
+  url(scss/fonts/icon.ttf) format('truetype'),
+  url(scss/fonts/icon.svg#entypo) format('svg');
+  
+}
+@font-face{
+  font-family : 'icon';
+  font-style : normal;
+  font-weight : normal;
+  src: url(scss/fonts/icon-webfont.eot);
+  src: url(scss/fonts/icon-webfont.eot?#iefix) format('eot'),
+  url(scss/fonts/icon-webfont.woff) format('woff'),
+  url(scss/fonts/icon-webfont.ttf) format('truetype'),
+}
+@font-face{
+  font-family : 'roboto';
+  src:url(scss/fonts/Roboto-Regular.ttf);
+}
+//icon前样式
+.icon:before {
+  font-family: 'icon';
+  font-style: normal;
+  speak: none;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smooth: antialiased;
+}
+
+//定义menu菜单图标样式
+.icon_menu1:before{ content: "\0021";}
+.icon_menu2:before{ content: "\0022";}
+.icon_menu3:before{ content: "\0023";}
+.icon_menu4:before{ content: "\0024";}
+.icon_menu5:before{ content: "\0025";}
+.icon_menu6:before{ content: "\0026";}
+.icon_menu7:before{ content: "\0026";}
+.icon_menu8:before{ content: "\0026";}
+.icon_menu9:before{ content: "\0026";}
+.icon_menu10:before{ content: "\0026";}
+
+.icon_user1:before{ content: "\002B";}
+.icon_user2:before{ content: "\002C";}
+.icon_user3:before{ content: "\002D";}
+
+.icon_shrink:before{ content: "\0038";}  /*收起*/
+.icon_stretch:before{ content: "\0032";} /*放大*/
+.icon_delete:before{ content: "\0039";}  /*删除*/
+
+.icon_search:before{ content: "\0027";}  /*搜索*/
+.icon_drop:before{ content: "\002A";}    /*下拉*/
+.icon_date:before{ content: "\0028";}   /*日期*/
+
+.icon_refresh:before{content : "\003E";}  //刷新
+.icon_download:before{content : "\003C";} //下载
+.icon_push:before{content : "\003B";} //推送
+.icon_add:before{content : "\0065";} //添加
+.icon_empty:before{content : "\0034";} //清空 
+.icon_left:before{content : "\0036";} //左三角箭头
+.icon_right:before{content : "\0035";}//右三角箭头
+.icon_edit:before{content : "\0033";} //编辑
+.icon_enlarge:before{content : "\0032";}//放大查看
+.icon_warning:before{content : "\00A3";} //警告
+.icon_print:before{content : "\00A5";} //打印
+.icon_question:before{content : "\0029";}//问号
+.icon_update:before{content : "\0034";}//修改
+.icon_person:before{content: "\0021";} //人员
+.icon_set:before{content: "\007A";}//设置
+.icon_call:before{content: "\002E";} //催办
+.icon_connect:before{content: "\0071";}//关联
+.icon_stop:before{content: "\0043";}//暂停
+.icon_nostop:before{content: "\0045";}//暂停
+.icon_scrap:before{content: "\0044";}//报废
+.icon_adopt:before{content: "\00C3";} //通过
+.icon_close:before{content: "\0064";} //关闭
+.icon_review:before{content: "\0079";}//审阅
+.icon_noreview:before{content: "\0079";}//未审阅
+.icon_resource:before{content: "\007B";}//资源
+.icon_hook:before{content: "\007C";}//对勾
+.icon_password:before{content: '\007D';}//密码
+.icon_house:before{content: '\0076';}//公司
+.icon_project:before{content:'\0023'}
+.icon_message:before{content: '\002F'}//信封
